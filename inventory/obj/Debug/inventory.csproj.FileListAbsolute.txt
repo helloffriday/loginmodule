@@ -1,0 +1,11 @@
+C:\Users\Tres\Documents\inventory-solution\inventory\bin\Debug\inventory.exe.config
+C:\Users\Tres\Documents\inventory-solution\inventory\bin\Debug\inventory.exe
+C:\Users\Tres\Documents\inventory-solution\inventory\bin\Debug\inventory.pdb
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.csproj.AssemblyReference.cache
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.DashboardForm.resources
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.RegisterForm.resources
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.SignInForm.resources
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.csproj.GenerateResource.cache
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.csproj.CoreCompileInputs.cache
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.exe
+C:\Users\Tres\Documents\inventory-solution\inventory\obj\Debug\inventory.pdb
