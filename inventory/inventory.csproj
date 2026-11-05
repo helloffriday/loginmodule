@@ -77,7 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="sampledb.accdb">
+    <None Include="sampledb.accdb" Condition="Exists('sampledb.accdb')">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
