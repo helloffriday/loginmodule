@@ -11,5 +11,5 @@ jobs:
       - run: dotnet publish inventory/inventory.csproj -c Release -r win-x64 --self-contained false -o publish
       - uses: actions/upload-artifact@v4
         with:
-          name: LostAndFound-win-x64
+          name: Inventory-win-x64
           path: publish
