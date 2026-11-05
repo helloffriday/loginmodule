@@ -5,11 +5,14 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 8.0.x
-      - run: dotnet publish inventory/inventory.csproj -c Release -r win-x64 --self-contained false -o publish
+
+      - uses: microsoft/setup-msbuild@v2
+
+      - name: Build
+        run: msbuild inventory/inventory.csproj /p:Configuration=Release /p:Platform=AnyCPU
+
       - uses: actions/upload-artifact@v4
         with:
           name: Inventory-win-x64
-          path: publish
+          path: inventory/bin/Release
+          if-no-files-found: error
