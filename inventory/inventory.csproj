@@ -41,6 +41,11 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
+<ItemGroup>
+  <None Update="sampledb.accdb">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Db.cs" />
     <Compile Include="DashboardForm.cs">
